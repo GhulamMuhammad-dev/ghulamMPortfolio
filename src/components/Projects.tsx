@@ -46,7 +46,7 @@ const Projects = () => {
       title: "AI Assistant",
       description: "Smart virtual assistant using natural language processing to help with daily tasks.",
       image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3543&q=80",
-      url: "#",
+      url: "https://github.com/GhulamMuhammad-dev/MonterKill",
       featured: true,
       color: "from-[#D946EF]/20 to-[#F97316]/20"
     }

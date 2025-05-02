@@ -30,29 +30,31 @@ const Hero = () => {
           
           {/* Glassmorphic card */}
           <motion.div 
-            className="backdrop-blur-lg bg-white/5 border border-white/10 rounded-xl p-6 shadow-xl max-w-xl"
+            
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.3, duration: 0.5 }}
           >
             <div className="flex flex-wrap gap-4">
               <Button 
+                size='lg'
                 className="bg-white text-portfolio-dark hover:bg-gray-200 transition-colors"
               >
                 Contact
               </Button>
               <Button 
-                variant="outline" 
-                className="border-portfolio-mint text-portfolio-mint hover:bg-portfolio-mint/10 transition-colors"
+                size='lg'
+                className="bg-portfolio-mint text-portfolio-dark hover:bg-portfolio-mint/10 hover:text-portfolio-mint transition-colors"
               >
                 Work
               </Button>
             </div>
+
           </motion.div>
         </motion.div>
       </div>
 
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce z-10">
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce z-10 ">
         <a href="#about" className="text-white opacity-60 hover:opacity-100 transition-opacity">
           <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />

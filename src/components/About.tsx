@@ -6,13 +6,13 @@ import { Code, Globe, Paintbrush } from 'lucide-react';
 const About = () => {
   return (
     <section id="about" className="py-20 bg-gradient-to-b from-black/50 to-black/30">
-      <div className="section-container">
-        <div className="grid md:grid-cols-3 gap-8 items-center">
+      <div className="section-container border-t border-portfolio-mint/20 pt-10 md:pt-20">
+        <div className="grid md:grid-cols-3 gap-8 items-center bg-portfolio-dark rounded-lg p-20 border-4 border-portfolio-mint ">
           <div className="col-span-1">
             <div className="rounded-xl border-2 border-portfolio-mint p-1 w-full max-w-md mx-auto shadow-[0_0_25px_rgba(126,255,192,0.15)]">
               <div className="bg-gray-800 rounded-lg overflow-hidden">
                 <img 
-                  src="/lovable-uploads/781aa5eb-6aad-4c7b-90ed-06bd18bab4bc.png" 
+                  src="/images/profileimg.png" 
                   alt="Profile" 
                   className="w-full aspect-square object-cover object-center hover:scale-105 transition-all duration-500"
                 />
