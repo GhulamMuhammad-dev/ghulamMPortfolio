@@ -4,9 +4,9 @@ import { motion } from 'framer-motion';
 
 const Hero = () => {
   return (
-    <section id="home" className="relative min-h-screen flex items-center overflow-hidden">
+    <section id="home" className="relative min-h-screen flex items-center overflow-hidde">
       {/* Gradient background effect */}
-      <div className="absolute inset-0 bg-gradient-to-br from-portfolio-dark via-[#102030] to-black/90 animate-gradient z-0"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-portfolio-mint via-[#102030] to-black/90 animate-gradient z-0"></div>
       
       {/* Glass orbs/shapes for visual interest */}
       <div className="absolute top-20 right-10 w-72 h-72 rounded-full bg-portfolio-mint/5 blur-[80px] animate-pulse"></div>
