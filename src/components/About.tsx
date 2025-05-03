@@ -6,10 +6,10 @@ import { Code, Globe, Paintbrush } from 'lucide-react';
 const About = () => {
   return (
     <section id="about" className="py-20 bg-gradient-to-b from-black/50 to-black/30">
-      <div className="section-container border-t border-portfolio-mint/20 pt-10 md:pt-20">
-        <div className="grid md:grid-cols-3 gap-8 items-center bg-portfolio-dark rounded-lg p-20 border-4 border-portfolio-mint ">
-          <div className="col-span-1">
-            <div className="rounded-xl border-2 border-portfolio-mint p-1 w-full max-w-md mx-auto shadow-[0_0_25px_rgba(126,255,192,0.15)]">
+      <div className="section-container border-t border-portfolio-mint/20 pt-10 md:pt-20 ">
+        <div className="grid md:grid-cols-3 gap-8 items-center bg-portfolio-dark rounded-lg md:p-20 border-4 p-4 border-portfolio-mint  ">
+          <div className="col-span-2 md:col-span-1">
+            <div className="rounded-xl border-2   border-portfolio-mint p-1 w-full max-w-md mx-auto shadow-[0_0_25px_rgba(126,255,192,0.15)]">
               <div className="bg-gray-800 rounded-lg overflow-hidden">
                 <img 
                   src="/images/profileimg.png" 
@@ -22,19 +22,19 @@ const About = () => {
           
           <div className="col-span-2 space-y-6">
             <div className="inline-block bg-portfolio-mint/10 rounded-full px-4 py-2 text-portfolio-mint border border-portfolio-mint/20">
-              <p className="text-sm italic">
+              <p className="text-sm italic p-4 md:p-2">
                 "I prefer to turn vague concepts into clear experiences – our work needs to look good from a user's perspective, but also function well"
               </p>
             </div>
             
             <div className="space-y-5">
-              <h2 className="text-2xl md:text-3xl font-bold leading-relaxed">
+              <h2 className=" text-lg md:text-3xl font-bold leading-relaxed">
                 I'm a multidisciplinary creative with a passion for turning ideas into interactive, intuitive digital products. With a background in both frontend development and UX/UI design, I bridge the gap between design vision and functional reality
               </h2>
               
               <div className="space-y-4">
                 <h3 className="text-lg text-portfolio-mint/80">Areas of expertise</h3>
-                <div className="flex flex-wrap gap-3">
+                <div className="flex flex-wrap gap-3 md:justify-start justify-center">
                   <Button size="sm" className="bg-portfolio-mint text-portfolio-dark hover:bg-portfolio-mint/90 group gap-2">
                     <Code size={16} className="group-hover:rotate-12 transition-transform" />
                     Full-stack Development

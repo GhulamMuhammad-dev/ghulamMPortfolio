@@ -6,14 +6,14 @@ const Hero = () => {
   return (
     <section id="home" className="relative min-h-screen flex items-center overflow-hidde">
       {/* Gradient background effect */}
-      <div className="absolute inset-0 bg-gradient-to-br from-portfolio-mint via-[#102030] to-black/90 animate-gradient z-0"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-portfolio-dark via-[#182b3d] to-black/90 animate-gradient z-0"></div>
       
       {/* Glass orbs/shapes for visual interest */}
       <div className="absolute top-20 right-10 w-72 h-72 rounded-full bg-portfolio-mint/5 blur-[80px] animate-pulse"></div>
       <div className="absolute bottom-20 left-10 w-96 h-96 rounded-full bg-portfolio-mint/10 blur-[100px] animate-pulse" style={{animationDelay: '2s'}}></div>
       <div className="absolute top-1/4 left-1/3 w-64 h-64 rounded-full bg-white/5 blur-[60px]" style={{animationDelay: '1s'}}></div>
       
-      <div className="section-container relative z-10">
+      <div className="section-container relative z-10 mx-4 md:mx-0 pt-20 md:pt-0">
         <motion.div 
           className="flex flex-col gap-8 md:w-4/5"
           initial={{ opacity: 0, y: 20 }}
